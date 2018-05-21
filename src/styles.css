@@ -1,0 +1,59 @@
+body{
+  background-image: url('https://www.warnerbros.com/archive/spacejam/movie/img/bg_stars.gif');
+  background-color: black;
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: center;
+}
+#logo{
+  position: fixed;
+  top: 40vh;
+  left: auto;
+}
+#bball{
+  position: fixed;
+  transform: translateX(6vw) translateY(25vh);
+}
+#lunar{
+  position: fixed;
+  transform: translateX(14vw) translateY(30vh);
+}
+#jump{
+  position: fixed;
+  transform: translateX(17vw) translateY(43vh);
+}
+#store{
+  position: fixed;
+  transform: translateX(14vw) translateY(53vh);
+}
+#behind{
+  position: fixed;
+  transform: translateX(6vw) translateY(60vh);
+}
+#site{
+  position: fixed;
+  transform: translateX(-5vw) translateY(65vh);
+}
+#souvenir{
+  position: fixed;
+  transform: translateX(-10vw) translateY(61vh);
+}
+#jr{
+  position: fixed;
+  transform: translateX(-16vw) translateY(50vh);
+}
+#lineup{
+  position: fixed;
+  transform: translateX(-17vw) translateY(41vh);
+}
+#press{
+  position: fixed;
+  transform: translateX(-9vw) translateY(31vh);
+}
+#jam{
+  position: fixed;
+  transform: translateX(-2vw) translateY(25vh);
+}

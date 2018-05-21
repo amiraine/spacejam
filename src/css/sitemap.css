@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+  color: #feff89;
+}
+.site-map{
+  margin-top: 10vh;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+a{
+  color: yellow;
+  text-decoration: underline;
+}
+.icon{
+  width: 10%;
+}
+.description{
+  width: 75%;
+}
+.links{
+  width: 15%;
+}
